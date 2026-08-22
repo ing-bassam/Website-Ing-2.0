@@ -3,23 +3,40 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Seite nicht gefunden | Bassam Ingenieurbüro für Bauwesen GmbH</title>
-    <meta name="description" content="Die angeforderte Seite wurde nicht gefunden.">
+    <title>Seite nicht gefunden | Bassam Ingenieurbüro für Bauwesen GmbH Berlin</title>
+    <meta name="description" content="Die von Ihnen aufgerufene Seite des Ingenieurbüros Bassam in Berlin existiert nicht oder wurde verschoben. Kehren Sie zur Startseite zurück.">
     <meta name="robots" content="noindex">
-    <meta name="theme-color" content="#e8d8bf">
-    <link rel="icon" href="assets/logo-header.jpg">
-    <link rel="stylesheet" href="styles.css">
+    <meta name="theme-color" content="#171721">
+    <style>
+      *{box-sizing:border-box; margin:0; padding:0;}
+      body{
+        background:#171721;
+        color:#ededf3;
+        font-family:'Inter', system-ui, -apple-system, sans-serif;
+        display:flex; align-items:center; justify-content:center;
+        min-height:100vh; padding:24px; text-align:center;
+      }
+      .container{max-width:560px; background:#1e1e2a; border:1px solid rgba(226,227,237,0.08); border-radius:16px; padding:48px 32px;}
+      .eyebrow{font-size:14px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:#5266eb; margin-bottom:16px;}
+      h1{font-size:32px; color:#ffffff; margin-bottom:16px; font-family:'Space Grotesk', system-ui, sans-serif;}
+      p{color:#c3c3cc; font-size:16px; line-height:1.6; margin-bottom:32px;}
+      .actions{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+      .btn{
+        background:#5266eb; color:#ffffff; padding:12px 28px; border-radius:32px; 
+        font-size:15px; font-weight:500; text-decoration:none; transition:opacity .2s; display:inline-block;
+      }
+      .btn:hover{opacity:0.9;}
+      .btn-outline{background:transparent; border:1px solid #ededf3; color:#ededf3;}
+    </style>
   </head>
   <body>
-    <main class="standalone-message">
-      <div class="container narrow">
-        <p class="eyebrow">404</p>
-        <h1>Seite nicht gefunden.</h1>
-        <p>Die angeforderte Seite existiert nicht oder wurde verschoben.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="index.html">Zur Startseite</a>
-          <a class="button button-secondary dark-secondary" href="kontakt.html">Kontakt aufnehmen</a>
-        </div>
+    <main class="container">
+      <p class="eyebrow">Fehler 404</p>
+      <h1>Seite nicht gefunden.</h1>
+      <p>Die von Ihnen gesuchte Adresse im Bereich Bauwesen und Gutachten existiert auf unserer Website leider nicht oder wurde verschoben.</p>
+      <div class="actions">
+        <a class="btn" href="index.html">Zur Startseite</a>
+        <a class="btn btn-outline" href="index.html#kontakt">Kontakt aufnehmen</a>
       </div>
     </main>
   </body>
