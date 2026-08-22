@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="BIB">
+  <style>
+    @font-face {
+      font-family: 'Fira Sans';
+      font-style: normal;
+      font-weight: 300;
+      src: url('fonts/fira-sans-v18-latin-300.woff2') format('woff2');
+    }
+  </style>
+  <rect width="128" height="128" rx="18" fill="#171721"/>
+  <text x="64" y="78" text-anchor="middle" fill="#ededf3" font-family="Fira Sans, sans-serif" font-size="47" font-weight="300" letter-spacing="1">BIB</text>
+  <rect x="22" y="94" width="84" height="4" rx="2" fill="#5266eb"/>
+</svg>
